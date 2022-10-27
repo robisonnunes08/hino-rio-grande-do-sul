@@ -77,6 +77,19 @@ p {
     color: white;
 } 
 
+.img02 {
+    display: inline-block;
+    width: 750px;
+    background-image: url(../imagens/Rio-Grande-do-Sul-800x533.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100vh;
+    background-attachment: fixed;
+    margin: 10px 0px 10px 0px;
+    color: white;
+
+}
+
 main { 
     display: block;
     margin: auto;
