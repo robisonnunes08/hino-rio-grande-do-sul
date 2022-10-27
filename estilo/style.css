@@ -53,8 +53,6 @@ header > h1 {
     
 }
 
-
-
 p { 
     color: white;
     text-align: justify;
@@ -73,7 +71,7 @@ p {
     background-image: url(../imagens/fecosul.jpg);
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 92vh;
+    background-size: 100vh;
     background-attachment: fixed;
     margin: 10px 0px 10px 0px;
     color: white;
@@ -86,7 +84,7 @@ main {
 }
 
 footer {
-   border-top: 10px 10px black;
+    border-top: 10px 10px black;
     text-align: center;
     font-family: var(--fonte3);
     background-image: linear-gradient(to bottom, #008D3D, #0F7039);
