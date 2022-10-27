@@ -10,8 +10,16 @@
     --fonte3: 'Inter', sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html, body {
-    background-color: rgb(204, 203, 203);
+
+    background-image: linear-gradient(to bottom, #008D3D, #0F7039);
+    font-family: var(--fonte1);
+    min-height: 92vh;
 }
 
 a {
@@ -22,10 +30,19 @@ a:hover {
     background-color: #0a6332;
 }
 
+ul {
+    padding: 20px 0px 20px 22px;
+    
+}
 header  {
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, #008D3D, #0F7039);
-    min-height: 150px;
+   
+    background-image: url(../imagens/Flag_map_of_Rio_Grande_Do_Sul-2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-bottom: 10px;
+    
+    
 }
 
 header > h1 {
@@ -33,17 +50,43 @@ header > h1 {
     font-family: var(--fonte3);
     text-align: center;
     text-decoration: underline;
+    
 }
 
-ul {
-   padding-left: 22px;
-}
 
-p {
+
+p { 
+    color: white;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.534);
+    max-width: 320px;
     font-family: var(--fonte1);
+    line-height: 1.8em;
+    padding: 40px 10px 50px 20px;
+    font-size: 1.3em;
+
+}
+
+.img01 {
+    display: inline-block;
+    width: 750px;
+    background-image: url(../imagens/fecosul.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 92vh;
+    background-attachment: fixed;
+    margin: 10px 0px 10px 0px;
+    color: white;
+} 
+
+main { 
+    display: block;
+    margin: auto;
+    background-color: #400300d3;
 }
 
 footer {
+   border-top: 10px 10px black;
     text-align: center;
     font-family: var(--fonte3);
     background-image: linear-gradient(to bottom, #008D3D, #0F7039);
