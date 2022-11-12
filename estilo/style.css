@@ -80,11 +80,10 @@ p {
 
 
 .img01 {
-    max-width:none;
-    margin: auto;    
+    
     background-image: url(../imagens/fecosul.jpg);
     background-repeat: no-repeat;
-    background-position: left left;
+    background-position: top center;
     background-size: 100vw;
     background-size: 100vh;
     background-attachment: fixed;
@@ -101,10 +100,19 @@ main {
 }
 
 footer {
-    border-top: 10px 10px black;
-    text-align: center;
+   
     font-family: var(--fonte3);
-    background-image: linear-gradient(to bottom, #008D3D, #0F7039);
-    border-radius: 5px;
 
+
+
+}
+
+.rodape-2 {
+    text-align: center;
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    max-width: 1100px;
+    margin: 3px 10px 30px 10px;
 }
