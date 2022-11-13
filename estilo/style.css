@@ -49,6 +49,10 @@ ul {
     
 }
 
+header {
+    border: 1px solid black;
+}
+
 header > h1 {
     padding-top: 30px;
     font-family: var(--fonte3);
@@ -65,11 +69,11 @@ p {
     font-family: var(--fonte1);
     line-height: 1.8em;
     padding: 40px 10px 50px 20px;
-    font-size: 1.3em;
+    font-size: 1.7em;
     display: block;
     margin: 0px 0px 20px 20px;
     border-radius: 8px;
-    max-width: 330px;
+    max-width: 430px;
     min-width: 250px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.445);
   
@@ -83,17 +87,18 @@ p {
     
     background-image: url(../imagens/fecosul.jpg);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-size: 100vw;
     background-size: 100vh;
     background-attachment: fixed;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
     color: white;
 } 
 
 
 main { 
     
+    border: 1px solid black;
     display: block;
     margin: auto;
     background-color: #183d0ea8;
